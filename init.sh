@@ -7,4 +7,4 @@ apt install -y haproxy
 curl https://raw.githubusercontent.com/RayP2P/test/main/haproxy.cfg>/etc/haproxy/haproxy.cfg
 systemctl restart haproxy
 ps -ef | grep haproxy
-lsof -i :8443
+lsof -i :443
